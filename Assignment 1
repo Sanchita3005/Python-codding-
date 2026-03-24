@@ -1,123 +1,76 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "mount_file_id": "1D0TRdBG8gk9OZ8t82sCflrf14Z5wgNyQ",
-      "authorship_tag": "ABX9TyNq2hm7c/0CcsMxhrgvBJX6",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/Sanchita3005/Python-codding-/blob/main/Assignment%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": 1,
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "1uboYo90LqSx",
-        "outputId": "dd49bfd8-6e9d-4d48-b35b-350761953950"
-      },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Integer value: 10\n",
-            "Type: <class 'int'>\n",
-            "\n",
-            "Float value: 10.5\n",
-            "Type: <class 'float'>\n",
-            "\n",
-            "String value: Hello Python\n",
-            "Type: <class 'str'>\n",
-            "\n",
-            "Boolean value: True\n",
-            "Type: <class 'bool'>\n",
-            "\n",
-            "List value: [1, 2, 3, 'Python', 5.5]\n",
-            "Type: <class 'list'>\n",
-            "\n",
-            "Tuple value: (1, 2, 3, 'Data')\n",
-            "Type: <class 'tuple'>\n",
-            "\n",
-            "Dictionary value: {'Name': 'Sanchita', 'Age': 18, 'Course': 'computer Science'}\n",
-            "Type: <class 'dict'>\n",
-            "\n",
-            "Set value: {1, 2, 3, 4, 5}\n",
-            "Type: <class 'set'>\n"
-          ]
-        }
-      ],
-      "source": [
-        "# Demonstration of different Python Data Types\n",
-        "\n",
-        "# Integer\n",
-        "integer_value = 10\n",
-        "print(\"Integer value:\", integer_value)\n",
-        "print(\"Type:\", type(integer_value))\n",
-        "print()\n",
-        "\n",
-        "# Float\n",
-        "float_value = 10.5\n",
-        "print(\"Float value:\", float_value)\n",
-        "print(\"Type:\", type(float_value))\n",
-        "print()\n",
-        "\n",
-        "# String\n",
-        "string_value = \"Hello Python\"\n",
-        "print(\"String value:\", string_value)\n",
-        "print(\"Type:\", type(string_value))\n",
-        "print()\n",
-        "\n",
-        "# Boolean\n",
-        "boolean_value = True\n",
-        "print(\"Boolean value:\", boolean_value)\n",
-        "print(\"Type:\", type(boolean_value))\n",
-        "print()\n",
-        "\n",
-        "# List\n",
-        "list_value = [1, 2, 3, \"Python\", 5.5]\n",
-        "print(\"List value:\", list_value)\n",
-        "print(\"Type:\", type(list_value))\n",
-        "print()\n",
-        "\n",
-        "# Tuple\n",
-        "tuple_value = (1, 2, 3, \"Data\")\n",
-        "print(\"Tuple value:\", tuple_value)\n",
-        "print(\"Type:\", type(tuple_value))\n",
-        "print()\n",
-        "\n",
-        "# Dictionary\n",
-        "dict_value = {\"Name\": \"Sanchita\", \"Age\": 18, \"Course\": \"computer Science\"}\n",
-        "print(\"Dictionary value:\", dict_value)\n",
-        "print(\"Type:\", type(dict_value))\n",
-        "print()\n",
-        "\n",
-        "# Set\n",
-        "set_value = {1, 2, 3, 4, 4, 5}\n",
-        "print(\"Set value:\", set_value)\n",
-        "print(\"Type:\", type(set_value))"
-      ]
-    }
-  ]
-}
+# Demonstration of different Python Data Types
+
+# Integer
+integer_value = 10
+print("Integer value:", integer_value)
+print("Type:", type(integer_value))
+print()
+
+# Float
+float_value = 10.5
+print("Float value:", float_value)
+print("Type:", type(float_value))
+print()
+
+# String
+string_value = "Hello Python"
+print("String value:", string_value)
+print("Type:", type(string_value))
+print()
+
+# Boolean
+boolean_value = True
+print("Boolean value:", boolean_value)
+print("Type:", type(boolean_value))
+print()
+
+# List
+list_value = [1, 2, 3, "Python", 5.5]
+print("List value:", list_value)
+print("Type:", type(list_value))
+print()
+
+# Tuple
+tuple_value = (1, 2, 3, "Data")
+print("Tuple value:", tuple_value)
+print("Type:", type(tuple_value))
+print()
+
+# Dictionary
+dict_value = {"Name": "Sanchita", "Age": 18, "Course": "computer Science"}
+print("Dictionary value:", dict_value)
+print("Type:", type(dict_value))
+print()
+
+# Set
+set_value = {1, 2, 3, 4, 4, 5}
+print("Set value:", set_value)
+print("Type:", type(set_value))
+
+
+
+OUTPUT 
+
+Integer value: 10
+Type: <class 'int'>
+
+Float value: 10.5
+Type: <class 'float'>
+
+String value: Hello Python
+Type: <class 'str'>
+
+Boolean value: True
+Type: <class 'bool'>
+
+List value: [1, 2, 3, 'Python', 5.5]
+Type: <class 'list'>
+
+Tuple value: (1, 2, 3, 'Data')
+Type: <class 'tuple'>
+
+Dictionary value: {'Name': 'Sanchita', 'Age': 18, 'Course': 'Computer Science'}
+Type: <class 'dict'>
+
+Set value: {1, 2, 3, 4, 5}
+Type: <class 'set'>
